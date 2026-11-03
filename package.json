@@ -1,12 +1,13 @@
+
 {
   "name": "norroth-desktop",
   "version": "1.0.0",
-  "description": "",
+  "description": "Unofficial Norroth Desktop Client",
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "electron .",
-    "dist": "electron-builder --linux AppImage"
+    "dist": "electron-builder --linux AppImage --publish never"
   },
   "keywords": [],
   "author": "",
@@ -23,7 +24,8 @@
       "target": [
         "AppImage"
       ],
-      "category": "Game"
+      "category": "Game",
+      "icon": "assets/icon.png"
     }
   }
 }
